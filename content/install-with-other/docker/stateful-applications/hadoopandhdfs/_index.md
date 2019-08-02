@@ -250,7 +250,7 @@ Adding the repository for the service:
 
 For this step you will need to login to a node which has the dcos cli installed and is authenticated to your DCOS cluster.
 
-Run the following command to add the repository to your DCOS cluster: $ dcos package repo add –index=0 hadoop-px https://px-dcos.s3.amazonaws.com/v1/hadoop-px/hadoop-px.zip
+Run the following command to add the repository to your DCOS cluster: $ dcos package repo add --index=0 hadoop-px https://px-dcos.s3.amazonaws.com/v1/hadoop-px/hadoop-px.json<TODO>
 
 Once you have run the above command you should see the Hadoop-PX service available in your universe
 
